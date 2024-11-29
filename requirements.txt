@@ -1,9 +1,11 @@
 requests~=2.32.3
 fastapi~=0.114.2
 jinja2
-starlette~=0.38.5
+starlette~=0.40.0
 fastapi
 uvicorn
 transformers
+sentencepiece
 torch
 pytest
+protobuf
