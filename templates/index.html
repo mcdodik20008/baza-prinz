@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Echo App</title>
+</head>
+<body>
+    <h1>Введите текст</h1>
+    <form method="post">
+        <textarea name="user_input" id="user_input" placeholder="Введите текст..."></textarea><br>
+        <button type="submit">Отправить</button>
+    </form>
+    {% if translate %}
+    <h2>Перевод на унтербольший язык: </h2>
+    <span>{{ translate }}</span>
+    {% endif %}
+</body>
+</html>

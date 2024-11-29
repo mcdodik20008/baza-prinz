@@ -1,2 +1,9 @@
 requests~=2.32.3
 fastapi~=0.114.2
+jinja2
+starlette~=0.38.5
+fastapi
+uvicorn
+transformers
+torch
+pytest
