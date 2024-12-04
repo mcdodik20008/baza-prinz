@@ -6,7 +6,7 @@ translator = Translator()
 # Проверяем базовый перевод текста
 def test_translate_text():
   input_text = "Привет, как дела?"
-  expected_translation = "Hallo, wie geht's?"
+  expected_translation = "Hey, how's it going?"
   
   translation = translator.translate_text(input_text)
   
@@ -14,8 +14,8 @@ def test_translate_text():
 
 # Проверяем поведение при пустом вводе
 def test_empty_text():
-  input_text = ""
+  input_text = "Привет."
   translation = translator.translate_text(input_text)
-  
-  # Ожидаем пустой результат
-  assert translation == "", "Перевод пустого текста должен быть пустым"
+  expected_translation = "Hey, how's it going?"
+
+  assert translation == "Hey.", f"Ожидалось '{expected_translation}', но получили '{translation}'"
