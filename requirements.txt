@@ -5,3 +5,4 @@ uvicorn
 torch~=2.5.1
 sentencepiece~=0.2.0
 python-multipart
+flake8

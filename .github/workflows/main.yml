@@ -26,6 +26,9 @@ jobs:
           python -m pip install --upgrade pip
           pip install -r requirements.txt
 
+      - name: Run flake8 for linting
+        run: flake8 . --count --select=E9,F63,F7,F82 --show-source --statistics
+
       - name: Run tests
         run: |
           pytest test.py 
