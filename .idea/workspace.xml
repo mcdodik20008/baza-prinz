@@ -4,12 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a655b544-83ce-4bfd-b99e-87a2528935be" name="Changes" comment="тесты проходят из cli">
+    <list default="true" id="a655b544-83ce-4bfd-b99e-87a2528935be" name="Changes" comment="Добавил линтер">
       <change beforePath="$PROJECT_DIR$/.github/workflows/main.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/main.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_29_11_2024_18_15_[Changes]/shelved.patch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_29_11_2024_18_15__Changes_.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/translator.py" beforeDir="false" afterPath="$PROJECT_DIR$/model/translator.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/test.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -84,7 +84,7 @@
       <updated>1732885722449</updated>
       <workItem from="1733281468575" duration="4366000" />
       <workItem from="1733491007521" duration="85000" />
-      <workItem from="1733491113746" duration="763000" />
+      <workItem from="1733491113746" duration="1328000" />
     </task>
     <task id="LOCAL-00001" summary="add translator model">
       <option name="closed" value="true" />
@@ -118,7 +118,15 @@
       <option name="project" value="LOCAL" />
       <updated>1733286760740</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Добавил линтер">
+      <option name="closed" value="true" />
+      <created>1733491923886</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1733491923886</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -139,7 +147,8 @@
     <MESSAGE value="add translator model" />
     <MESSAGE value="рабочая модель" />
     <MESSAGE value="тесты проходят из cli" />
-    <option name="LAST_COMMIT_MESSAGE" value="тесты проходят из cli" />
+    <MESSAGE value="Добавил линтер" />
+    <option name="LAST_COMMIT_MESSAGE" value="Добавил линтер" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/baza_prinz$pytest_for_test_test_translate_text.coverage" NAME="pytest for test.test_translate_text Coverage Results" MODIFIED="1733283022945" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests" />

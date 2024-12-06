@@ -9,12 +9,14 @@ translator = Translator()
 
 templates = Jinja2Templates(directory="templates")
 
+
 @app.get("/", response_class=HTMLResponse)
 async def read_form(request: Request):
     return templates.TemplateResponse("index.html", {"request": request})
 
+
 @app.post("/", response_class=HTMLResponse)
 async def handle_form(request: Request, user_input: str = Form(...)):
     translated_text = translator.translate_text(user_input)
-
-    return templates.TemplateResponse("index.html", {"request": request, "translate": translated_text})
+    params = {"request": request, "translate": translated_text}
+    return templates.TemplateResponse("index.html", params)
